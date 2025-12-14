@@ -1,8 +1,4 @@
 
-
-
-
-
 import Navbar from "./components/Layout/Navbar";
 
 import Login from './components/Auth/Login';

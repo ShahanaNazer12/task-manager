@@ -1,4 +1,4 @@
-import User from '../models/User.js';  // ADD .js extension
+import User from '../models/User.js';  
 import jwt from 'jsonwebtoken';
 
 const generateToken = (id) => {

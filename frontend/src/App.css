@@ -39,7 +39,7 @@ body {
   padding: 2rem 1rem;
 }
 
-/* Navbar Styles */
+
 .navbar {
   background-color: var(--card-bg);
   box-shadow: var(--shadow);
@@ -106,7 +106,7 @@ body {
   transform: translateY(-1px);
 }
 
-/* Auth Styles */
+
 .auth-container {
   display: flex;
   justify-content: center;
@@ -212,7 +212,7 @@ body.dark-theme .error-message {
   color: #fecaca;
 }
 
-/* Progress Bar */
+
 .progress-container {
   background-color: var(--card-bg);
   padding: 1.5rem;
@@ -244,7 +244,7 @@ body.dark-theme .error-message {
   border-radius: 6px;
 }
 
-/* Task Form */
+
 .task-form-section {
   background-color: var(--card-bg);
   padding: 1.5rem;
@@ -309,7 +309,7 @@ body.dark-theme .error-message {
   color: white;
 }
 
-/* Task Filter */
+
 .task-filter {
   display: flex;
   justify-content: space-between;
@@ -364,7 +364,7 @@ body.dark-theme .error-message {
   border-color: var(--primary-color);
 }
 
-/* Tasks Grid */
+
 .tasks-grid {
   display: grid;
   gap: 1rem;
@@ -486,7 +486,7 @@ body.dark-theme .priority-high {
   transform: scale(1.2);
 }
 
-/* Utility Classes */
+
 .loading {
   text-align: center;
   padding: 3rem;
@@ -507,7 +507,7 @@ body.dark-theme .priority-high {
   font-size: 1.1rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .nav-container {
     flex-direction: column;
@@ -568,20 +568,20 @@ body.dark-theme .priority-high {
   filter: grayscale(0%);
 }
 
-/* Task actions - now has two buttons */
+
 .task-actions {
   display: flex;
   gap: 0.5rem;
   align-items: center;
 }
 
-/* Edit title highlight */
+
 .edit-title {
   color: var(--primary-color);
   font-weight: 600;
 }
 
-/* Form section when editing */
+
 .task-form-section h2 {
   margin-bottom: 1rem;
   font-size: 1.3rem;
@@ -590,7 +590,7 @@ body.dark-theme .priority-high {
   gap: 0.5rem;
 }
 
-/* Enhanced form actions */
+
 .form-actions {
   display: flex;
   gap: 1rem;
@@ -600,7 +600,7 @@ body.dark-theme .priority-high {
   flex: 1;
 }
 
-/* Cancel button specific styles */
+
 .btn-secondary {
   padding: 0.75rem 1.5rem;
   background-color: var(--border-color);
@@ -618,18 +618,18 @@ body.dark-theme .priority-high {
   transform: translateY(-1px);
 }
 
-/* Task item hover effect when editing */
+
 .task-item.editing {
   border: 2px solid var(--primary-color);
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
 }
 
-/* Smooth scroll behavior */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Enhanced button styles */
+
 .btn-primary {
   width: 100%;
   padding: 0.875rem;
@@ -653,7 +653,7 @@ html {
   box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
 }
 
-/* Enhanced task actions visibility */
+
 .task-item .task-actions {
   opacity: 0.6;
   transition: opacity 0.3s;
@@ -663,7 +663,7 @@ html {
   opacity: 1;
 }
 
-/* Emoji icons consistent sizing */
+
 .task-actions button {
   font-size: 1.2rem;
   display: flex;
@@ -671,7 +671,7 @@ html {
   justify-content: center;
 }
 
-/* Form input focus effects */
+
 .form-row input:focus,
 .form-row textarea:focus,
 .form-row-group select:focus,
@@ -681,12 +681,10 @@ html {
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
 }
 
-/* Priority select with icons */
 .form-row-group select {
   cursor: pointer;
 }
 
-/* Enhanced no tasks message */
 .no-tasks {
   text-align: center;
   padding: 4rem 2rem;
@@ -702,7 +700,6 @@ html {
   margin: 0;
 }
 
-/* Responsive adjustments for edit feature */
 @media (max-width: 768px) {
   .form-actions {
     flex-direction: column;
@@ -723,7 +720,6 @@ html {
   }
 }
 
-/* Loading animation */
 .loading {
   text-align: center;
   padding: 3rem;
@@ -741,7 +737,6 @@ html {
   }
 }
 
-/* Success state after edit */
 .task-item.just-updated {
   animation: highlight 1s ease-in-out;
 }

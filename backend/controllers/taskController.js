@@ -1,4 +1,4 @@
-import Task from '../models/Task.js';  // ADD .js extension
+import Task from '../models/Task.js';  
 
 export const getTasks = async (req, res) => {
   try {
